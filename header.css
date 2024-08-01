@@ -1,19 +1,13 @@
-/* src/Header.css */
-.header {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+import React from 'react';
+import '../PortfolioStyles.css'; // Adjust the path if necessary
 
-.header-background {
-  width: 100%;
-  height: auto;
-}
+const Header = () => {
+  return (
+    <header>
+      <h1>John Doe</h1> {/* Fixed closing tag for h1 */}
+      <p>Web Developer & Designer</p>
+    </header>
+  );
+};
 
-.header-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-}
+export default Header;
