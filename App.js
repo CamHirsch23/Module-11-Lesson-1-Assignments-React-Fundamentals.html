@@ -1,13 +1,12 @@
-// src/App.js
 import React from 'react';
-import Header from './Header';
-import About from './About';
-import Contact from './Contact';
-import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Contact from './components/Contact';
+import './PortfolioStyles.css'; // Assuming this is the correct path for your CSS file
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <Header />
       <About />
       <Contact />
