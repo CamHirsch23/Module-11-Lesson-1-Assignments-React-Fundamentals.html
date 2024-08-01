@@ -1,13 +1,13 @@
-// src/Contact.js
 import React from 'react';
+import '../PortfolioStyles.css'; // Adjust the path if necessary
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <footer>
       <h2>Contact</h2>
-      <p>Email: example@example.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">Your Profile</a></p>
-    </section>
+      <p>Email: john.doe@example.com</p>
+      <p>LinkedIn: linkedin.com/in/johndoe</p>
+    </footer>
   );
 };
 
