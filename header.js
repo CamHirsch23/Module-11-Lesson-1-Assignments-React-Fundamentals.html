@@ -1,11 +1,11 @@
 import React from 'react';
-import '../PortfolioStyles.css'; // Adjust the path if necessary
+import '../PortfolioStyles.css';
 
 const Header = () => {
   return (
-    <header>
-      <h1>John Doe</h1> {/* Fixed closing tag for h1 */}
-      <p>Web Developer & Designer</p>
+    <header className="header">
+      <img src="path/to/background-image.jpg" alt="Background" className="header-image" />
+      <h1 className="header-title">Cameron James Hirschboeck</h1>
     </header>
   );
 };
