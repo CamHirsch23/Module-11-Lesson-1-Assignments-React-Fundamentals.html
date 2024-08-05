@@ -6,7 +6,7 @@ class About extends React.Component {
     return (
       <section>
         <h2>About Me</h2>
-        <p>I am a passionate Web Developer with a love for creating dynamic and user-friendly websites. Welcome to my portfolio!</p>
+        <p>Hi I am a passionate Web Developer with a love for creating dynamic and user-friendly websites. Welcome to my portfolio! Thank you, Cameron</p>
       </section>
     );
   }
